@@ -1,12 +1,12 @@
 #include <iostream>
-#include "arraylist.hpp"
+#include "linkedlist.hpp"
 using namespace std;
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char** argv) {
 	char op;
 	int num, pos;
-	List* list = new ArrayList();
+	List* list = new LinkedList();
 	do {
 		cout << "Op: ";
 		cin >> op;

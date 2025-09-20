@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=00000000g0000000000000000
-UnitCount=5
+UnitCount=4
 
 [VersionInfo]
 Major=1
@@ -50,16 +50,6 @@ ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
 
-[Unit1]
-FileName=main.cpp
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
 [Unit2]
 FileName=list.hpp
 CompileCpp=1
@@ -70,8 +60,8 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit3]
-FileName=arraylist.hpp
+[Unit4]
+FileName=linkedlist.hpp
 CompileCpp=1
 Folder=
 Compile=1
@@ -80,7 +70,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit4]
+[Unit1]
 FileName=node.hpp
 CompileCpp=1
 Folder=
@@ -90,8 +80,8 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit5]
-FileName=linkedlist.hpp
+[Unit3]
+FileName=main.cpp
 CompileCpp=1
 Folder=
 Compile=1
